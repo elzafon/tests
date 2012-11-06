@@ -1,0 +1,74 @@
+body {
+	height: 100%;
+	text-align: center;
+	font-family: helvetica, arial, sans-serif;
+}
+
+
+#txt_search {
+    border: 1px solid #007eff;
+	height: 22px;
+    -webkit-box-shadow: 0px 0px 5px #007eff;  
+    -moz-box-shadow: 0px 0px 5px #007eff;  
+    box-shadow: 0px 0px 5px #007eff;  
+}
+
+#btn_submit {
+	width: auto;
+	padding: 5px 10px;	
+	background: #2664cf;
+	font-family: Arial, sans-serif;
+	color: #ffffff;
+	text-align: center;
+	border: 1px solid #4cadfc;
+	cursor: pointer;
+	background: -webkit-gradient(linear, left top, left bottom, from(#0a8ffe), to(#2b5cc6));
+	background: -moz-linear-gradient(top, #0a8ffe, #2b5cc6);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0a8ffe', endColorstr='#2b5cc6');
+}
+
+#txt_search, #btn_submit {
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	!important;behavior: url("border-radius.htc")!important;
+}
+
+#ul_gallery_grid { width: 500px;margin: 40px auto;}
+
+#ul_gallery_grid li {
+    background: none repeat scroll 0 0 rgba(255, 255, 255, 0.3);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+    border-radius: 15px 15px 15px 15px;
+    color: #444444;
+    display: block;
+    float: left;
+    list-style: none inside none;
+    margin: 10px 10px;
+    text-align: left;
+    text-shadow: none;
+    width: 75px;
+}
+
+div.thumb_title{  
+    position:relative; 
+    bottombottom:0px; 
+	top: -40px;
+    width:75px;  
+    background-color:black;  
+    font-family: 'tahoma';  
+    font-size:12px;  
+    color:white;  
+    opacity:0.6; /* transparency */  
+    filter:alpha(opacity=60); /* IE transparency */  
+}  
+p.thumb_title_content{  
+    padding:10px 10px;  
+    margin:0px;  
+	overflow: hidden;
+	text-overflow: ellipsis;
+	-o-text-overflow: ellipsis;
+	white-space: nowrap;
+	
+}  
+
